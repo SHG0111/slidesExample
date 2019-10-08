@@ -1,0 +1,32 @@
+body{
+    font-family: 'Cairo', sans-serif !important;
+}
+.right{
+    text-align: left !important;
+}
+.left{
+    text-align: right!important;
+}
+.button.actionButton .material-icons{
+    left: 0 !important;
+}
+.side{
+    right: unset !important;
+    left: 0;
+}
+
+.sidebar.right.visible {
+    direction: rtl;
+    right: unset;
+    left: 0;
+    display: block;
+}
+.sidebar.right {
+    transform: translateX(-100%);
+    right: unset;
+    left: 0;
+}
+
+.appstoreImg.cropLeft{
+    margin-left: 5px !important;
+}
